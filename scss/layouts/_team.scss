@@ -1,0 +1,108 @@
+.team .container {
+    background-color: #F7F7F7;
+}
+
+.member-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.team .appertitle {
+    color: #303030;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.team .section-title {
+    color: #303030;
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+
+    margin-bottom: 44px;
+}
+
+.team .member-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: -15px;
+    padding-inline-start: 0;
+
+}
+
+.team .member-item {
+    list-style: none;
+
+    margin: 15px;
+
+    flex-basis: calc((100% - 90px) / 3);
+}
+
+
+.team .member-title {
+    color: #303030;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+
+    margin-bottom: 8px;
+}
+
+.team .member-position {
+    color: #FF6C00;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+    margin-bottom: 30px;
+}
+
+.team .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.team .socials-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+
+.team .socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.socials-icon {
+    fill: #303030;
+}
+
+.socials-link:hover .socials-icon .socials-link:focus .socials-icon {
+    fill: #FF6C00;
+}

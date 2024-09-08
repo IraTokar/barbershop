@@ -1,0 +1,23 @@
+.gallery .appertitle {
+    color: #303030;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+
+    margin-bottom: 44px;
+}
+
+.gallery .list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: -15px;
+}
+
+.gallery .item {
+    margin: 15px;
+    flex-basis: calc((100% - 120px) / 4);
+}
