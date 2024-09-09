@@ -46,10 +46,10 @@
     font-weight: 600;   
     line-height: 1.33;
     letter-spacing: 0.1em;
-    transition: var(--transition-dur-and-func);
+    transition: color var(--transition-dur-and-func);
 
-    &--active:hover,
-    &--active:focus {
+    &:hover,
+    &:focus {
         color: var(--accent-color);
     }
 }

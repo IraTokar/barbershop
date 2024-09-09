@@ -38,22 +38,30 @@
         <nav class="navigation">
           <ul class="navigation-list list">
             <li class="navigation-item item">
-              <a class="link navigation-link navigation-link--active" href="#"
+              <a
+                class="link navigation-link navigation-link--active"
+                href="#about"
                 >About</a
               >
             </li>
             <li class="navigation-item item">
-              <a class="link navigation-link navigation-link--active" href="#"
+              <a
+                class="link navigation-link navigation-link--active"
+                href="#services"
                 >Services and prices</a
               >
             </li>
             <li class="navigation-item item">
-              <a class="link navigation-link navigation-link--active" href="#"
+              <a
+                class="link navigation-link navigation-link--active"
+                href="#team"
                 >Barbers</a
               >
             </li>
             <li class="navigation-item item">
-              <a class="link navigation-link navigation-link--active" href="#"
+              <a
+                class="link navigation-link navigation-link--active"
+                href="#booking"
                 >Contacts</a
               >
             </li>
@@ -71,13 +79,13 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" id="home">
         <div class="container hero-container">
           <div class="hero-left-side">
-            <ul class="list hero-list hero-list--static">
+            <ul class="list hero-list">
               <li class="item hero-item">
                 <a
-                  class="link hero-link hero-link--active"
+                  class="link hero-link"
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
@@ -86,7 +94,7 @@
               </li>
               <li class="item hero-item">
                 <a
-                  class="link hero-link hero-link--active"
+                  class="link hero-link"
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
@@ -120,7 +128,7 @@
         </div>
       </section>
 
-      <section class="about section">
+      <section class="about section" id="about">
         <div class="container about-container">
           <ul class="list">
             <li class="item">
@@ -164,7 +172,7 @@
         </div>
       </section>
 
-      <section class="services section">
+      <section class="services section" id="services">
         <div class="container">
           <p class="uppertitle">spend your time with the best masters</p>
           <h2 class="section-title">Services and prices</h2>
@@ -217,7 +225,7 @@
         </div>
       </section>
 
-      <section class="benefits section">
+      <section class="benefits section" id="benefits">
         <div class="container benefits-container">
           <div class="benefits-left-side">
             <ul class="list benefits-list">
@@ -251,11 +259,11 @@
         </div>
       </section>
 
-      <section class="team section">
+      <section class="team section" id="team">
         <div class="container">
-          <p class="appertitle">for true enjoyers of the atmosphere</p>
+          <p class="uppertitle">for true enjoyers of the atmosphere</p>
           <h2 class="section-title">Our barbers</h2>
-          <ul class="member-list">
+          <ul class="member-list list">
             <li class="member-item">
               <img
                 class="member-img"
@@ -461,9 +469,9 @@
         </div>
       </section>
 
-      <section class="gallery section">
+      <section class="gallery section" id="gallery">
         <div class="container">
-          <p class="appertitle">in Latin, "barba" means "beard"</p>
+          <p class="uppertitle">in Latin, "barba" means "beard"</p>
           <h2 class="vissually-hidden"></h2>
           <ul class="list">
             <li class="item">
@@ -505,16 +513,87 @@
           </ul>
         </div>
       </section>
+
+      <section class="booking section" id="booking">
+        <div class="container booking-container">
+          <div class="booking-left-side">
+            <h2 class="booking-title">Online-booking</h2>
+            <form action="" class="form">
+              <input
+                class="form-input form-styles"
+                type="text"
+                name="name"
+                placeholder="Name*"
+              />
+              <input
+                class="form-input form-styles"
+                type="tel"
+                name="phone"
+                placeholder="Phone*"
+              />
+              <textarea
+                class="form-textarea form-styles"
+                name="message"
+                placeholder="Message"
+              ></textarea>
+              <button type="button" class="button button-mode-dark">
+                Send
+              </button>
+            </form>
+          </div>
+          <div class="booking-right-side">
+            <h2 class="booking-title">Contacts</h2>
+            <address class="contacts">
+              <ul class="contacts-list list">
+                <li class="contacts-item item">
+                  <a
+                    class="contacts-address link"
+                    rel="noopener noreferrer"
+                    href="https://maps.app.goo.gl/oEiwza4BA3BmZVv57"
+                    >st. Vasilkova, 7A Kiev, 08132</a
+                  >
+                </li>
+                <li class="contacts-list list">
+                  <a class="contacts-tel link" href="tel:+380441111111"
+                    >+38 044 111 11 11</a
+                  >
+                </li>
+                <li class="contacts-list list">
+                  <a
+                    class="contacts-mail link"
+                    href="mailto:barbershop@email.com"
+                    >barbershop@email.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <h3 class="subtitle">working hours</h3>
+            <p class="working-hours">Every day from 9:00 to 22:00</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <p class="copyright">&#169; Copyright 2020</p>
-        <ul>
-          <li class="link">
-            <a href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <ul class="list footer-list">
+          <li class="item">
+            <a
+              class="link footer-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
           </li>
-          <li class="link">
-            <a href="" target="_blank" rel="noopener noreferrer">Youtube</a>
+          <li class="item">
+            <a
+              class="link footer-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              >Youtube</a
+            >
           </li>
         </ul>
       </div>

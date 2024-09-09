@@ -1,0 +1,156 @@
+.booking {
+    background-color: var(--dark-background-color);
+    background-image: url(/images/background/bg-booking.png);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.booking-container {
+    display: flex;
+}
+
+.booking-left-side {
+    width: calc(50% + 15px);
+}
+
+.booking-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    color: var(--secondary-text-color);
+    letter-spacing: 0.05em;
+    margin-bottom: 44px;
+}
+
+.form-input {
+    width: 270px;
+    height: 24px;
+}
+
+.form-styles {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    color: rgba(157, 164, 189, 0.4);
+    margin-bottom: 44px;
+    cursor: pointer;
+    transition: border-bottom-color var(--transition-dur-and-func);
+
+    &::placeholder {
+        text-transform: uppercase;
+        color: rgba(157, 164, 189, 0.4);
+        transition: color 500ms linear;
+    }
+    
+    &:focus,
+    &:hover {
+        outline: transparent;
+        border-bottom-color: var(--secondary-text-color);
+    }
+    
+    &:focus::placeholder,
+    &:hover::placeholder {
+        color: var(--secondary-text-color);
+    }
+}
+
+.form-input {
+    width: 270px;
+    height: 24px;
+
+    &:first-child {
+        margin-right: 30px;
+    }
+}
+
+.form-textarea {
+    width: 570px;
+    height: 76px;
+    resize: none;
+}
+
+.booking-right-side {
+    padding-left: 100px;
+}
+
+.booking-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    color: var(--secondary-text-color);
+    letter-spacing: 0.05em;
+
+    margin-bottom: 40px;
+}
+
+.contacts-item {
+    font-style: normal;
+    margin-bottom: 20px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+.contacts-address  {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.66;
+    color:#9da4bd;
+    letter-spacing: 0.02em;
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.contacts-tel {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    color: #9da4bd;
+    letter-spacing: 0.02em;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.contacts-mail {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    text-decoration-line: underline;
+    color: #9da4bd;
+    letter-spacing: 0.02em;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.booking .subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #9da4bd;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.working-hours {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    color: #9da4bd;
+    letter-spacing: 0.02em;
+}

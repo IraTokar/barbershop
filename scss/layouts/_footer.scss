@@ -2,3 +2,39 @@
     padding-top: 56px;
     padding-bottom: 56px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.footer-list::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #303030;
+    margin-right: 20px;
+
+}
+
+.footer-link {
+    color: var(--main-text-color);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    transition: color var(--transition-dur-and-func);
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}

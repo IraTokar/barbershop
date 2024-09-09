@@ -1,4 +1,4 @@
-.gallery .appertitle {
+.gallery .uppertitle {
     color: #303030;
     font-size: 11px;
     font-style: normal;
@@ -8,16 +8,27 @@
     text-transform: uppercase;
 
     margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.gallery .uppertitle::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #303030;
+    margin-right: 20px;
+
 }
 
 .gallery .list {
     display: flex;
     flex-wrap: wrap;
 
-    margin: -15px;
+    gap: 30px;
 }
 
 .gallery .item {
-    margin: 15px;
     flex-basis: calc((100% - 120px) / 4);
 }

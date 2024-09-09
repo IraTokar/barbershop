@@ -19,7 +19,7 @@
     transform-origin: bottom left;
     gap: 40px;
 
-    &--static::before {
+    &::before {
         content: "";
         width: 60px;
         height: 1px;
@@ -35,8 +35,8 @@
     line-height: 1.36;
     letter-spacing: 2.2px;
 
-    &--active:hover,
-    &--active:focus {
+    &:hover,
+    &:focus {
         color: var(--accent-color);
     }
 }
